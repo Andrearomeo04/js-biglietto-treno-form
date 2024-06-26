@@ -10,12 +10,46 @@
 <body>
     <div class="container">
         <div class="row">
+            <div class="col-12 mt-5">
+                <h2 class="text-white">Form</h2>
+            </div>
             <div class="col-12">
-                <label for="">Km</label>
-                <input type="text" placeholder="km to travel" id="km">
-                <label for="">Age</label>
-                <input type="number" placeholder="Enter your age here" id="age">
-                <button id="calculate_price" class="btn btn-primary">calculate price</button>
+                <form action="" method="get">
+                    <div class="row">
+                        <div class="col-12 col-md-6 text-center">
+                            <label for="" class="form-label text-white">Name</label>
+                            <input type="text" placeholder="Enter your name here" class="form-control" id="name">
+                        </div>
+                        <div class="col-12 col-md-6 text-center">
+                            <label for="" class="form-label text-white">Km</label>
+                            <input type="text" placeholder="km to travel" class="form-control" id="km">
+                        </div>
+                        <div class="col-12 col-md-6 text-center">
+                            <label for="" class="form-label text-white">Age</label>
+                            <input type="text" placeholder="Enter your age here" class="form-control" id="age">
+                        </div>
+                        <div class="col-12 my-3">
+                            <div id="calculate_price" class="btn btn-primary">calculate price</div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 mt-5 p-4 border border-black rounded">
+                <h2>DETTAGLIO PASSEGGERI</h2>
+                <div class="row">
+                    <div class="col-4 border border-black rounded-start">
+                        <h2>NOME PASSEGGERO</h2>
+                        <p id="ticket_name" class="fs-2 text-white">...</p>
+                    </div>
+                    <div class="col 8 border border-black rounded-end">
+                        <ul class="d-flex list-unstyled">
+                            <li class="mx-4"><h2>Offerta</h2> <p id="ticket_offert" class="fs-2 text-white">...</p></li>
+                            <li class="mx-4"><h2>Carrozza</h2> <p id="ticket_carriage" class="fs-2 text-white">...</p></li>
+                            <li class="mx-4"><h2>Codice CP</h2> <p id="ticket_cp" class="fs-2 text-white">...</p></li>
+                            <li class="mx-4"><h2>Costo biglietto</h2> <p id="ticket_price" class="fs-2 text-white">...</p></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
