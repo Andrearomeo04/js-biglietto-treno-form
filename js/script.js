@@ -1,6 +1,6 @@
 let num_km = document.getElementById('km').value;
 let km_price = num_km * 0.21;
-console.log(km_price)
+console.log(num_km)
 
 let age = document.getElementById('age').value;
 console.log(age)
@@ -16,3 +16,7 @@ else if (age > 65) {
     let discount = km_price * 0.4
     final_price = km_price - discount
 }
+
+let price = final_price.toFixed(2)
+console.log(price)
+
