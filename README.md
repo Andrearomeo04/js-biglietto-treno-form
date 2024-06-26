@@ -34,7 +34,6 @@ problema 3 "va applicato uno sconto del 20% per i minorenni; va applicato uno sc
 5.1applico uno sconto in % del 20% sul prezzo
 6.altrimenti se il passeggero ha 65 o più anni
 7.1applico uno sconto in % del 40% sul prezzo
-8.altrimenti il prezzo è quello default
 
 problema 4 "il prezzo deve essere formattato con 2 decimali"
 1.vado ad assegnare alla variabile con il prezzo finale, una proprietà che ci permette di ottenere il risultato in due decimali

@@ -11,3 +11,8 @@ if (age < 18) {
     let discount = km_price * 0.2
     final_price = km_price - discount
 }
+
+else if (age > 65) {
+    let discount = km_price * 0.4
+    final_price = km_price - discount
+}
