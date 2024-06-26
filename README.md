@@ -18,10 +18,10 @@ Buon lavoro
 
 soluzione 
 
-problema 1 "il programma dovrà chiedere il numero di chilometri da percorrere e l'età all'utente"
+problema 1 "il programma dovrà chiedere il numero di chilometri da percorrere e l'età all'utente" x
 1.creo 2 input di testo in cui richiederò questi dati
 
-problema 2 "il prezzo del biglietto è definito in base ai km (0.21 € al km)"
+problema 2 "il prezzo del biglietto è definito in base ai km (0.21 € al km)" x
 1.dichiaro una variabile per i km da percorrere
 2.richiamo l'input in cui vanno messi i km e assegno questo valore alla variabile creata poc'anzi
 3.richiamo la variabile per i numeri di km da voler percorrere e applico un calcolo in % per ottenere il prezzo finale
