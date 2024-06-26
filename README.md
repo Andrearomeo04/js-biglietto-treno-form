@@ -22,23 +22,29 @@ problema 1 "il programma dovrà chiedere il numero di chilometri da percorrere e
 1.creo 2 input di testo in cui richiederò questi dati
 
 problema 2 "il prezzo del biglietto è definito in base ai km (0.21 € al km)"
-1.richiamo la variabile per i numeri di km da voler percorrere e applico un calcolo in % per ottenere il prezzo finale
+1.dichiaro una variabile per i km da percorrere
+2.richiamo l'input in cui vanno messi i km e assegno questo valore alla variabile creata poc'anzi
+3.richiamo la variabile per i numeri di km da voler percorrere e applico un calcolo in % per ottenere il prezzo finale
 
 problema 3 "va applicato uno sconto del 20% per i minorenni; va applicato uno sconto del 40% per gli over 65."
-1.richiamo la variabile per l'età del passeggero
-2.se il passeggero ha meno di 18 anni
-2.1applico uno sconto in % del 20% sul prezzo
-3.altrimenti se il passeggero ha 65 o più anni
-3.1applico uno sconto in % del 40% sul prezzo
-4.altrimenti il prezzo è quello default
+1.dichiaro una variabile per l'età del passeggero
+2.richiamo l'input in cui va messa l'età e assegno questo valore alla variabile creata poc'anzi
+3.richiamo la variabile per l'età del passeggero
+4.se il passeggero ha meno di 18 anni
+5.1applico uno sconto in % del 20% sul prezzo
+6.altrimenti se il passeggero ha 65 o più anni
+7.1applico uno sconto in % del 40% sul prezzo
+8.altrimenti il prezzo è quello default
 
 problema 4 "il prezzo deve essere formattato con 2 decimali"
 1.vado ad assegnare alla variabile con il prezzo finale, una proprietà che ci permette di ottenere il risultato in due decimali
 
 problema 5 "creare un bottone, il quale genererà il prezzo finale in base alle informazioni date"
+1.creo un pulsante 
 1.recupero il pulsante dal dom
 2.gli dico di rimanere in attesa di un evento click
 3.recupero gli input di richiesta dei km e dell'età
+5.stampo i valori nella console
 
 problema 6 "milestone 2"
 1.inserisco gli input di testo precedentemente creati, in un form
