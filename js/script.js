@@ -5,3 +5,9 @@ console.log(km_price)
 let age = document.getElementById('age').value;
 console.log(age)
 
+let final_price = km_price
+
+if (age < 18) {
+    let discount = km_price * 0.2
+    final_price = km_price - discount
+}
