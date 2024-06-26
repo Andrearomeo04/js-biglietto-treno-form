@@ -15,3 +15,36 @@ MILESTONE 2: Solo una volta che il milestone 1 sarà completo e funzionante allo
 Nota: Se non vi sentite particolarmente creativi, questa potrebbe essere un’implementazione da seguire per il secondo milestone. Potete scegliere di implementare una soluzione completamente diversa oppure simile, ma in ogni caso cercate di farla vostra.
 Link repo live coding: https://github.com/fabriziom90/js-html-css.git
 Buon lavoro
+
+soluzione 
+
+problema 1 "il programma dovrà chiedere il numero di chilometri da percorrere e l'età all'utente"
+1.creo 2 input di testo in cui richiederò questi dati
+
+problema 2 "il prezzo del biglietto è definito in base ai km (0.21 € al km)"
+1.richiamo la variabile per i numeri di km da voler percorrere e applico un calcolo in % per ottenere il prezzo finale
+
+problema 3 "va applicato uno sconto del 20% per i minorenni; va applicato uno sconto del 40% per gli over 65."
+1.richiamo la variabile per l'età del passeggero
+2.se il passeggero ha meno di 18 anni
+2.1applico uno sconto in % del 20% sul prezzo
+3.altrimenti se il passeggero ha 65 o più anni
+3.1applico uno sconto in % del 40% sul prezzo
+4.altrimenti il prezzo è quello default
+
+problema 4 "il prezzo deve essere formattato con 2 decimali"
+1.vado ad assegnare alla variabile con il prezzo finale, una proprietà che ci permette di ottenere il risultato in due decimali
+
+problema 5 "creare un bottone, il quale genererà il prezzo finale in base alle informazioni date"
+1.recupero il pulsante dal dom
+2.gli dico di rimanere in attesa di un evento click
+3.recupero gli input di richiesta dei km e dell'età
+
+problema 6 "milestone 2"
+1.inserisco gli input di testo precedentemente creati, in un form
+2.recupero il pulsante dal dom
+3.gli dico di rimanere in attesa di un evento click
+4.recupero gli input contenuti all'interno del form
+5.stampo questi valori all'interno della pagina html
+
+
